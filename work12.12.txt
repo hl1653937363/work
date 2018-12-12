@@ -1,0 +1,14 @@
+var reverse = function(x)
+{
+    var receiveArr = [];
+    var tostr =x.toString();
+    for (var i = tostr.length - 1;i>0;i--){
+        receiveArr.push(tostr[i]);
+    }
+    if (tostr[0]=="-"){
+    receiveArr.unshift("-");
+    }
+    receiveArr.push(tostr[0]);
+    var receivenum = parseInt(receiveArr.join(""));
+    return receivenum;
+}
