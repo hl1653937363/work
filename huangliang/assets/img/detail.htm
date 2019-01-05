@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="renderer" content="webkit">
+<meta charset="gbk">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-TGideas">
+<meta name="Copyright" content="Tencent">
+<meta name="Description" content="《QQ飞车》官方唯一视频中心，教学视频、赛事视频、解说视频、娱乐视频一个不落！" />
+<meta name="Keywords" content="QQ飞车视频,A车视频,S车视频,SSC大赛视频,谁是车王视频,QQ飞车官网教程,全球争霸赛视频,QQ飞车教学视频,QQ飞车新手视频,上官高仁视频,极限之王视频" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" media="all" href="//game.gtimg.cn/images/speed/web201503/css/inside.css"  />
+<!-- 设计：小丫 | 重构：Piggy | 创建：2016.9.20 | 团队博客：http://tgideas.qq.com -->
+<link rel="stylesheet" rev="stylesheet" type="text/css" media="all" href="css/com.css"  />
+<link rel="stylesheet" rev="stylesheet" type="text/css" media="all" href="css/page.css"  />
+<title>QQ飞车官方视频中心-腾讯游戏-竞速网游王者 突破300万同时在线</title>
+<script>
+var actName = "video.detail";/*按钮统计命名前缀*/
+var setSite={   //设置网站属性
+    siteType:"video3"   //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+    ,pageType:"detail"  //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+    ,pageName:"详情页"   //必填项:页面中文名
+    ,project:"base"   //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;默认other;
+    ,osact:0          //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+}
+</script>
+</head>
+<body id="video_body">
+<!-- 导航 S-->
+<a name="top"></a>
+<div class="header-wrap">
+	<div class="header_v clearfix">
+		<h1 class="logo fl tindex"><a href="index.shtml" onclick="pgvSendClick({hottag:actName+'.top.logo'})">QQ飞车视频中心</a></h1>
+		<div id="menu"><!--解说998 赛事997 教学996 娱乐995 赛车994 官方993 赛王992--->
+			<ul class="menu fl">
+				<li>
+					<a href="index.shtml" onclick="pgvSendClick({hottag:actName+'.top.nav1'})">
+						<i class="ico ico-1 sp"></i>
+						<span class="menu-txt">首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="/tv/" target="_blank" onclick="pgvSendClick({hottag:actName+'.top.nav2'})">
+						<i class="ico ico-2 sp"></i>
+						<span class="menu-txt">直播</span>
+					</a>
+					<dl class="dropdown-menu">
+					</dl>
+				</li>
+				<li class="">
+					<a href="recommend.shtml" onclick="pgvSendClick({hottag:actName+'.top.nav3'})">
+						<i class="ico ico-3 sp"></i>
+						<span class="menu-txt">推荐</span>
+					</a>
+				</li>
+				<li class="">
+					<a href="search.shtml?G_biz=8&amp;iType=1093" onclick="pgvSendClick({hottag:actName+'.top.nav4'})">
+						<i class="ico ico-4 sp"></i>
+						<span class="menu-txt">解说</span>
+					</a>
+				</li>
+				<li>
+					<a href="search.shtml?G_biz=8&amp;iType=1094" onclick="pgvSendClick({hottag:actName+'.top.nav5'})">
+						<i class="ico ico-5 sp"></i>
+						<span class="menu-txt">赛事</span>
+					</a>
+				</li>
+				<li>
+					<a href="search.shtml?G_biz=8&amp;iType=1121" onclick="pgvSendClick({hottag:actName+'.top.nav6'})">
+						<i class="ico ico-6 sp"></i>
+						<span class="menu-txt">赛王</span>
+					</a>
+				</li>
+				<li class="">
+					<a href="search.shtml?G_biz=8&amp;iType=1095" onclick="pgvSendClick({hottag:actName+'.top.nav7'})">
+						<i class="ico ico-7 sp"></i>
+						<span class="menu-txt">教学</span>
+					</a>
+				</li>
+				<li>
+					<a href="search.shtml?G_biz=8&amp;iType=1097" onclick="pgvSendClick({hottag:actName+'.top.nav8'})">
+						<i class="ico ico-8 sp"></i>
+						<span class="menu-txt">赛车</span>
+					</a>
+				</li>
+				<li>
+					<a href="search.shtml?G_biz=8&amp;iType=1098" onclick="pgvSendClick({hottag:actName+'.top.nav9'})">
+						<i class="ico ico-9 sp"></i>
+						<span class="menu-txt">官方</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="search-box clearfix">
+			<div class="search0form fr">
+				<input type="text" name="search fl" id="search" class="search fl"/>
+				<a href="javascript:" class="search-btn fr sp tindex" id="searchBtn">搜索</a>
+				<ul class="top-ul" style="display: none;" id="smartlist"></ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="nav">
+	<div class="nav-con">
+		<h5 class="nav-tit">掌上飞车APP</h5>
+		<a href="//speed.gamebbs.qq.com/forum.php?mod=forumdisplay&fid=30673" class="nav-lnk" onclick="pgvSendClick({hottag:actName+'.sidebar.link_edit'})"><em class="nav-ico1 nav-ico sp"></em>我要投稿</a>
+		<a href="/main.shtml" class="nav-lnk" onclick="pgvSendClick({hottag:actName+'.sidebar.link_home'})"><em class="nav-ico2 nav-ico sp"></em>返回官网</a>
+		<a href="javascript:void(0)" class="nav-top" onclick="pgvSendClick({hottag:actName+'.sidebar.link_top'})">TOP</a>
+	</div>
+</div>
+<!-- 导航 END-->
+<div class="wrap">
+    <div class="content">
+        <div class="breadcrumb sp">
+            您的位置： <a href="index.shtml">视频中心</a>&nbsp;&gt;&nbsp;<a href="" id="typedesc"></a>&nbsp;&gt;&nbsp;<span id="toptitle"><a id="subtypedesc"></a></span>
+        </div>
+        <h2 class="video-detail-title" id="sTitle"></h2>
+        <div class="section video-detail clearfix player-main">
+            <div class="v-detail-c fl">
+                <div class="video-wrap"><div class="player"  id="mod_player"></div></div>
+                <div id="mask" style="display: none"></div>
+                <div id="JPlayTips" style="display: none"></div>
+                <div class="v-detail-b">
+						<span class="digg fl" id="videoDigg">
+						<i class="icon-digg m-sp"></i><span></span>
+						</span>
+                    <span class="favorites fl" id="videoCollect"><i class="icon-favorites m-sp"></i><span></span></span>
+                    <span class="share fl m-sp">分享</span>
+                    <span class="v-play fr"><em id="iTotalPlay"></em> 次播放 </span>
+                    <div class="share-tips" style="left:300px;top: 5px;">
+                        <div id="tg-sns"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="v-side-info fr">
+                <div class="v-side-author">
+                    <div class="pic">
+                        <a href="" id='headimg'><img id="sFaceUrl" src="http://game.gtimg.cn/images/cf/v2/tx.jpg" alt=""/></a>
+                    </div>
+                    <div class="info">
+                        <div class="v-side-name">
+                            <a href=""><h3 class="v-name"  id="sNickName"></h3></a>
+                            <!--a href=""><img class="link-star-home m-sp" ></a-->
+                        </div>
+                        <div class="v-side-sub">
+                            <a href="javascript:CancelSubscribe();" class="link-subscribe-go link-subscribe"  id="deldy" style="display:none">
+                                <i class="icon-sub-1 m-sp"></i>
+                                取消
+                                <i class="icon-sub-2 m-sp"></i>
+                            </a>
+                            <a href="javascript:DoSubscribe();" class="link-subscribe" id="dy" style="display:none">
+                                <i class="icon-sub-4 m-sp"></i>
+                                关注
+                                <i class="icon-sub-2 m-sp"></i>
+                            </a>
+                            <div class="subscribe-num" id="iFans"></div>
+                        </div>
+                    </div>
+                    <p class="v-desc" id="userDesc"></p>
+                </div>
+                <div class="v-side-tabs">
+                    <ul class="v-side-hd">
+                        <!--li>CF商城</li-->
+                        <li class="on">相关视频</li>
+                    </ul>
+                    <ul class="v-side-list v-side-shop" id="sucai">
+                        <!--
+                        <li class="v-side-item"><a href="detail.shtml?G_Biz=1&amp;tid=63104" target="_blank" title="韩路遥：当年兵荒马乱，肆进不断，一将守了江山，却陨于宫后谗言" class="v-lnk"><img src="http://shp.qpic.cn/qqvideo_ori/0/y0329vlmmci_228_128/0" width="118" height="72" alt=""> <div class="clearfix"><strong class="v-title">韩路遥：当年兵荒马乱，肆进不断，一将守了江山，却陨于宫后谗言</strong></div><div class="v-overlay"><span class="v-icon m-sp"></span></div></a></li><li class="v-side-item"><a href="detail.shtml?G_Biz=1&amp;tid=63103" target="_blank" title="晴空：川二，金字塔跑酷刷分秀" class="v-lnk"><img src="http://shp.qpic.cn/qqvideo_ori/0/w0328w2fvw5_228_128/0" width="118" height="72" alt=""> <div class="clearfix"><strong class="v-title">晴空：川二，金字塔跑酷刷分秀</strong></div><div class="v-overlay"><span class="v-icon m-sp"></span></div></a></li><li class="v-side-item"><a href="detail.shtml?G_Biz=1&amp;tid=63102" target="_blank" title="夜风：战龙巴雷特强势冲锋狙！佣兵爆破！" class="v-lnk"><img src="http://shp.qpic.cn/qqvideo_ori/0/p0327sspdmi_228_128/0" width="118" height="72" alt=""> <div class="clearfix"><strong class="v-title">夜风：战龙巴雷特强势冲锋狙！佣兵爆破！</strong></div><div class="v-overlay"><span class="v-icon m-sp"></span></div></a></li><li class="v-side-item"><a href="detail.shtml?G_Biz=1&amp;tid=63101" target="_blank" title="浪风：全能爆破刷屏机器 碾碎他们！" class="v-lnk"><img src="http://shp.qpic.cn/qqvideo_ori/0/d032882fqme_228_128/0" width="118" height="72" alt=""> <div class="clearfix"><strong class="v-title">浪风：全能爆破刷屏机器 碾碎他们！</strong></div><div class="v-overlay"><span class="v-icon m-sp"></span></div></a></li><li class="v-side-item"><a href="detail.shtml?G_Biz=1&amp;tid=63100" target="_blank" title="零号：卫星基地遗憾错失五杀" class="v-lnk"><img src="http://shp.qpic.cn/qqvideo_ori/0/m0327f2ir5z_228_128/0" width="118" height="72" alt=""> <div class="clearfix"><strong class="v-title">零号：卫星基地遗憾错失五杀</strong></div><div class="v-overlay"><span class="v-icon m-sp"></span></div></a></li><li class="v-side-item"><a href="detail.shtml?G_Biz=1&amp;tid=63099" target="_blank" title="cf乐美解说：幽灵娱乐抓鬼 原声无剪辑" class="v-lnk"><img src="http://shp.qpic.cn/qqvideo_ori/0/r0327we3b5i_228_128/0" width="118" height="72" alt=""> <div class="clearfix"><strong class="v-title">cf乐美解说：幽灵娱乐抓鬼 原声无剪辑</strong></div><div class="v-overlay"><span class="v-icon m-sp"></span></div></a></li>
+                        <li class="v-side-item">
+                            <a class="v-lnk" target="_blank" href="//cf.qq.com/v/go.shtml?id=10110">
+                                <img width="118" height="72" src="http://shp.qpic.cn/cfwebcap/670631605/4e260bc3f58caa41a5c0e53e22494bf1/0">
+                                <div class="v-info clearfix">
+                                    <strong class="v-title">枪王学院第21集 昔日师徒今日对手</strong>
+                                </div>
+                                <div class="v-overlay"><span class="v-icon m-sp"></span></div>
+                            </a>
+                        </li>
+                        <li class="v-side-item">
+                            <a class="v-lnk" target="_blank" href="//cf.qq.com/v/go.shtml?id=10110">
+                                <img width="118" height="72" src="http://shp.qpic.cn/cfwebcap/670631605/4e260bc3f58caa41a5c0e53e22494bf1/0">
+                                <div class="v-info clearfix">
+                                    <strong class="v-title">枪王学院第21集 昔日师徒今日对手</strong>
+                                </div>
+                                <div class="v-overlay"><span class="v-icon m-sp"></span></div>
+                            </a>
+                        </li-->
+
+                    </ul>
+                    <ul class="v-side-list v-side-related" style="display: none"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="v-comment fl">
+                <!--加载牛评-->
+                <div class="message" id="np_frame"></div>
+            </div>
+            <div class="top fr">
+                <div class="v-hd">
+                    <h3 class="title">排行榜</h3>
+                    <ul class="top-tab">
+                        <li class="on"  id="dpvlist" ><a href="javascript:;">今日</a></li>
+                        <li id="wpvlist"><a href="javascript:;">本周</a></li>
+                        <li id="mpvlist"><a href="javascript:;">本月</a></li>
+                    </ul></div>
+                    <div class="v-bd">
+                        <ul class="top-list clearfix"  id="hot_rank_list">
+                        </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="footer">
+    <div id="gfooter" ams="147/35032/m113" age="17" dark="0" ieg-logo="1">
+    <a href="//jade.qq.com" title="腾讯互动娱乐 - 琳琅天上工作室" target="_blank" class="foot_left logo_game">腾讯互动娱乐 - 琳琅天上工作室</a>
+    <a href="//timi.qq.com" title="天美工作室群" target="_blank" class="foot_left logo_timi">天美工作室群</a>
+    <p class="copyright_txt">著作权人：腾讯科技（深圳）有限公司　出版单位：深圳市腾讯计算机系统有限公司</p>
+</div>
+<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>  
+<div class="footer_tips">
+<dl>
+  <dt>本游戏适合全年龄人群；请您确定已如实进行实名注册；为了您的健康，请合理控制游戏时间。 </dt>
+        <dd>
+          <ul>
+           <li>抵制不良游戏</li>
+           <li>拒绝盗版游戏</li>
+           <li>注意自我保护</li>
+           <li>谨防受骗上当</li>
+           <li>适度游戏益脑</li>
+           <li>沉迷游戏伤身</li>
+           <li>合理安排时间</li>
+           <li>享受健康生活</li>
+          </ul>
+        </dd>
+    </dl>
+  </div>  
+ </div>
+<!-- footerEND -->  
+<!-- 全站侧面AD start -->
+<div class="sider_fix_gg" id="sider_fix_gg">
+	<a href="https://speed.qq.com/cp/a20181116week/ysfs.htm" onclick="pgvSendClick({hottag:'main2015.sider.fix_gg'})" target="_blank" style="color:;" class="sider_fix_link"><img src="//ossweb-img.qq.com/upload/webplat/info/speed/20190102/86127801840972.jpg" alt="周末" /></a>
+	<a href="//speed.qq.com/cp/a20160601zsfc/index.htm" onclick="pgvSendClick({hottag:'main2015.sider.fix_gg'})" target="_blank" style="color:;" class="sider_fix_link"><img src="//ossweb-img.qq.com/upload/webplat/info/speed/20170626/232741208554.png" alt="掌飞" /></a>
+	<span class="sider_fix_close hover" onclick="pgvSendClick({hottag:'main2015.sider.fix_gg_close'}); document.getElementById('sider_fix_gg').style.display='none';"></span>
+</div>
+
+<!-- 全站侧面AD end -->
+    <script src="//ossweb-img.qq.com/images/js/top_js/speed_top_201007.js"></script>
+    <script src="//ams.qq.com/wmp/data/js/v3/WMP_TYPELIST_GW_1.js"></script>
+    <script src="//ams.qq.com/wmp/data/js/PAGE_WMP_BIZ_TYPE.js"></script>
+    <script src="//ossweb-img.qq.com/images/js/milo/util/jquery-1.11.3.min.js"></script>
+    <script src="//ossweb-img.qq.com/images/js/milo/milo.js"></script>
+    <script src="//ossweb-img.qq.com/images/js/share/share-min.js"></script>
+    <script src="//imgcache.gtimg.cn/tencentvideo_v1/tvp/js/tvp.player_v2_jq.js" charset="utf-8"></script>
+    <script src="//ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js"></script>
+    <script src="js/com.js"></script>
+    <script src="js/video_detail.js"></script>
+</body>
+</html>
